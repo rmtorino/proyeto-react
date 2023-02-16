@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+//import Noticias from "./componentes/Noticias";
+import {Noticias} from "./componentes/Noticias/Noticias";
+import { Presentacion } from "./componentes/Presentacion";
+import { Tutores } from "./componentes/Tutores/Tutores";
 
 function App() {
+  
+  
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      <Noticias>
+        <h2>Hola Mundo</h2>
+        <hr/>
+        <Tutores/>
+
+      </Noticias>
+
+      
+      
+    
+      {/* <Presentacion nombre= "Ricardo Torino" rol= "Alumno" edad="35"/>
+      <Presentacion nombre= "Carlos" rol= "Alumno" edad="23"/>
+      <Presentacion nombre= "Rodrigo" rol= "Alumno" edad="33"/> */}
+
+      
+      
+      
     </div>
   );
 }
