@@ -1,7 +1,6 @@
-//import Noticias from "./componentes/Noticias";
-import {Noticias} from "./componentes/Noticias/Noticias";
-import { Presentacion } from "./componentes/Presentacion";
-import { Tutores } from "./componentes/Tutores/Tutores";
+import ItemListContainer from "./componentes/ItemListContainer/ItemListContainer";
+import { Navbar } from "./componentes/Navbar/Navbar";
+
 
 function App() {
   
@@ -9,24 +8,9 @@ function App() {
   
   return (
     <div>
+      <Navbar/>
 
-      <Noticias>
-        <h2>Hola Mundo</h2>
-        <hr/>
-        <Tutores/>
-
-      </Noticias>
-
-      
-      
-    
-      {/* <Presentacion nombre= "Ricardo Torino" rol= "Alumno" edad="35"/>
-      <Presentacion nombre= "Carlos" rol= "Alumno" edad="23"/>
-      <Presentacion nombre= "Rodrigo" rol= "Alumno" edad="33"/> */}
-
-      
-      
-      
+      <ItemListContainer/>
     </div>
   );
 }
