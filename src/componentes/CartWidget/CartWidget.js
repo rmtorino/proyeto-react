@@ -1,10 +1,12 @@
-import logo from "./shopping-cart.svg"
+
 
 const CartWidget = () =>{
 
     return(
         <div>
-            <img src={logo} />
+            
+            <h2>Carrito</h2>
+            <hr/>
             
         </div>
     );

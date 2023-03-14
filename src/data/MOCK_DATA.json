@@ -1,0 +1,45 @@
+
+[
+    {
+        "id": 1,
+        "name":"Producto1",
+        "description": "Lorem Ipsum",
+        "price": 1500,
+        "img": "https://via.placeholder.com/220 "
+    },
+    {
+        "id": 2,
+        "name":"Producto2",
+        "description": "Lorem Ipsum",
+        "price": 2500,
+        "img": "https://via.placeholder.com/220"
+    },
+    {
+        "id": 3,
+        "name":"Producto3",
+        "description": "Lorem Ipsum",
+        "price": 3500,
+        "img": "https://via.placeholder.com/220 "
+    },
+    {
+        "id": 4,
+        "name":"Producto4",
+        "description": "Lorem Ipsum",
+        "price": 4500,
+        "img": "https://via.placeholder.com/220 "
+    },
+    {
+        "id": 5,
+        "name":"Producto5",
+        "description": "Lorem Ipsum",
+        "price": 5500,
+        "img": "https://via.placeholder.com/220 "
+    },
+    {
+        "id": 6,
+        "name":"Producto6",
+        "description": "Lorem Ipsum",
+        "price": 6500,
+        "img": "https://via.placeholder.com/220 "
+    }
+]

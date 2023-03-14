@@ -1,7 +1,8 @@
 import "./Navbar.scss"
-// import logo from "./logo.png"
+import logo from "../CartWidget/shopping-cart.svg"
 
 import CartWidget from "../CartWidget/CartWidget"
+import { Link } from "react-router-dom"
 
 export const Navbar = () =>{
 
@@ -10,19 +11,22 @@ export const Navbar = () =>{
             <div className = "header_container">
                 
                 {/* <img src={logo} alt="logo" className = "header_logo_img"/> */}
-                <h1 className = "header_logo">Perfumeria Beauty</h1>
+                <Link to="/" className = "header_logo">
+                    <h1 className = "header_logo">Perfumeria Beauty</h1>
+                </Link>
 
                 <nav className="navbar">
-                    <a href="#" className="navbar_link">Perfumes</a>
-                    <a href="#" className="navbar_link">Maquillajes</a>
-                    <a href="#" className="navbar_link">Uñas</a>
-                    <a> <CartWidget/> </a>
+                    <Link to="/perfumes" className="navbar_link">Perfumes</Link>
+                    <Link to="/maquillajes" className="navbar_link">Maquillajes</Link>
+                    <Link to="/unias" className="navbar_link">Uñas</Link>
+                    <Link to="/contacto" className="navbar_link">Contacto</Link>
+                    <Link to="/carWidget"> <img src={logo}/> </Link>
                     
                 </nav>
 
                 
                 
-                    
+                     
                 
                 
             </div>
